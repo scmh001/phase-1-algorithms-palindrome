@@ -10,12 +10,18 @@
   return word === wordRl
 } */
 
-isPalidrome = (word) => {
-  return === word.split('').reverse('').join('')
+isPalindrome = (word) => {
+  return word === word.split('').reverse('').join('');
 }
 
 /* 
   Add your pseudocode here
+  1. .split('') turn turn string into array
+  2. .reverse('')
+  3. .join('')
+  4. comapre the original word to value of new reversed word
+
+
   //write a function for is
   //is function will receive 1 argument
   //is returns true if string is a palindrome
